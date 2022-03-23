@@ -55,15 +55,15 @@ def main():
     print('  [l] Login another token')
     print(50*'-')
     option = input('  Select option: ')
-    if option =='1':
+    if option ==1:
         crack_method()
-    elif option =='2':
+    elif option ==2:
         create_file()
-    elif option =='3':
+    elif option ==3:
         sep()
-    elif option =='4':
+    elif option ==4:
         dublicate()
-    elif option =='l' or option =='L':
+    elif option ==l or option =='L':
         os.system('rm -rf access_token.txt')
         login()
     else:
