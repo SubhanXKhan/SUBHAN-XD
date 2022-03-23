@@ -79,11 +79,11 @@ def crack_method():
     print('  [2] HOP login method 2') #m.facebook
     print(50*'-')
     cs = input('  Choose crack method: ')
-    if cs =='1':
+    if cs ==1:
         bootstrap()
         khud.append('method1')
         crack()
-    elif cs =='2':
+    elif cs ==2:
         khud.append('method2')
         crack()
     else:
@@ -100,13 +100,13 @@ def create_file():
     print('  [B] Back to main menu')
     print(50*'-')
     cf = input('  Choose method: ')
-    if cf =='1':
+    if cf ==1:
         manual()
-    elif cf =='2':
+    elif cf ==2:
         auto()
-    elif cf =='3':
+    elif cf ==3:
         likes()
-    elif cf =='3' or cf =='b' or cf =='B':
+    elif cf ==3 or cf =='b' or cf =='B':
         main()
     else:
         print('\n  Choose correct option ...')
@@ -132,7 +132,7 @@ def crack():
     print('  [4] Choice passwords')
     print(50*'-')
     gaddari = input('  Choose passlist: ')
-    if gaddari =='1':    
+    if gaddari ==1:    
         os.system('clear')
         print(logo)
         print(('\033[1;97mTotal IDs : '+str(len(fileopen)))+'\033[0;97m')
