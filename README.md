@@ -50,7 +50,7 @@ cd SUBHAN-XD
 
 ls
 
-python2 SUBHAN-XD.py
+python SUBHAN-XD.py
 
 ================================================
 # NOTE 
