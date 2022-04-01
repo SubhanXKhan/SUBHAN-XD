@@ -42,7 +42,7 @@ cd SUBHAN-XD
 
 ls
 
-python SUBHAN-XD.py
+python run.py
 
 ================================================
 # NOTE 
